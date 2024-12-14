@@ -1,0 +1,127 @@
+
+.poll p, .poll a{
+    all:unset;
+    text-indent: 0px !important;
+}
+.poll{
+    display:grid;
+    grid-template: "header header" auto "stud_poll grad_poll" auto / 1fr 1fr;
+    grid-gap:2em;
+    padding: 0px 2em 1em;
+    border:2px solid var(--border-color);
+    border-radius:10px;
+    overflow: clip;
+    margin-bottom:1em;
+}
+.bg_logo{
+    background: url(https://syprox.pp.ua/lfvkm-images/bg_logo_poll.svg) -70px -20px no-repeat, linear-gradient( 140deg, white, hsl(193, 80%, 97%) );
+}
+.bg_doc{
+    background: url(https://syprox.pp.ua/lfvkm-images/bg_doc.svg) bottom 10px right 10px no-repeat, linear-gradient( 140deg, white, hsl(193, 80%, 97%) );
+}
+.poll h3{
+    grin-area: header;
+    grid-column: span 2;
+    color:hsl(0, 100%, 25%);
+    margin-bottom:0;
+}
+.poll p:first-child{
+    grin-area: stud_poll;
+}
+.poll p:last-child{
+    grin-area: grad_poll;
+}
+.poll p a[href^="https://forms.gle/"],
+.poll p a[href^="https://docs.google.com/forms/"],
+.poll p a[href^="https://drive.google.com/file/"],
+.poll p a[href="#"],
+.poll p a[href^="https://forms.gle/"]:hover,
+.poll p a[href^="https://docs.google.com/forms/"]:hover,
+.poll p a[href^="https://drive.google.com/file/"]:hover,
+.poll p a[href="#"]:hover{
+    all:inherit;
+    display:block;
+    text-align: center;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    padding:0.6em 1em 0.6em 1.8em;
+    margin: 1em 0;
+    border-radius:8px;
+    transition:box-shadow 150ms ease-out;
+    cursor: pointer;
+    max-width: calc(320px + 1.4em);
+}
+
+.poll p a[href^="https://forms.gle/"],
+.poll p a[href^="https://docs.google.com/forms/"]{
+    
+    background:url(https://syprox.pp.ua/lfvkm-images/quast_poll_icon.svg) 1.2em center no-repeat, white;
+}
+.poll p a[href^="https://drive.google.com/file/"]{
+    
+    background:url(https://syprox.pp.ua/lfvkm-images/result_poll_icon.svg) 1.2em center no-repeat, white;
+}
+.poll p a[href^="https://forms.gle/"]:hover,
+.poll p a[href^="https://docs.google.com/forms/"]:hover{
+    
+    background:url(https://syprox.pp.ua/lfvkm-images/quast_poll_icon.svg) 1.2em center no-repeat, white;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    transition:box-shadow 150ms ease-out;
+}
+.poll p a[href^="https://drive.google.com/file/"]:hover{
+    
+    background:url(https://syprox.pp.ua/lfvkm-images/result_poll_icon.svg) 1.2em center no-repeat, white;
+    box-shadow: 0 4px 6px var(--shadow-color);
+     transition:box-shadow 150ms ease-out;
+}
+.poll.blocks{
+    display:flex;
+    gap:1em;
+    flex-direction:column;
+    padding-bottom:2em;
+}
+.blocks a{
+    cursor:pointer;
+    color: var(--main-link-color);
+}
+.blocks details summary{
+    cursor:pointer;
+}
+.blocks h4{
+    display:inline;
+    font-family: 'Roboto', system-ui, Helvetica, sans-serif;
+}
+.blocks details{
+    max-height:5em;
+}
+.blocks details a{
+    font-size:0.9em;
+    color:var(--main-link-color);
+}
+.blocks details a:hover{
+    text-decoration:underline solid var(--main-link-color);
+}
+.blocks details[open]{
+    max-height:1000px;
+    transition:max-height 700ms ease-out;
+}
+
+@media only screen and (max-width: 976px) {
+    .poll{
+        font-size:0.9rem;
+        grid-template: "header" auto "stud_poll" auto "grad_poll" auto / 98%;
+        width: clamp(320px, 98%, 420px);
+        margin:0 auto 1em;
+        padding: 0 1em 0.6em;
+    }
+    .poll h3{
+    
+    grid-column: 1/2;
+   
+}
+.poll.blocks{
+    width: 98%;
+}
+.poll.blocks a{
+    font-size:1em;
+}
+}

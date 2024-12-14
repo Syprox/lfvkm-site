@@ -1,0 +1,263 @@
+/* © Савін Сергій Володимирович 21.06.2024 */
+#vstup24 {
+  font-family: var(--header-font), sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin: 1em auto;
+  width: clamp(260px, 98%, 360px);
+  padding-bottom:1em;
+}
+#vstup24 p {
+  text-indent: 0 !important;
+}
+#vstup24 details {
+  width: 100%;
+  display: flex;
+  gap: 0.5em;
+  border: 1px solid #003380;
+  border-radius: 0.5em;
+  flex-direction: column;
+  overflow: clip;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  max-height: 60px;
+  transition: all 300ms ease-out;
+}
+#vstup24 details[open] {
+  border-color: orangered;
+  max-height: 500px;
+  transition: all 300ms ease-out;
+}
+#vstup24 details summary {
+  padding: 0.5em 1em;
+  font-size: 16px;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+#vstup24 details[open] summary {
+  color: orangered;
+  background-color: rgb(255, 236, 202);
+  padding-bottom: 0.6em;
+  transition: all 300ms ease-out;
+  box-shadow: 0 3px 10px 5px white;
+}
+details::-webkit-scrollbar {
+  width: 8px;
+}
+details::-webkit-scrollbar-track {
+  background-color: rgb(255, 236, 202);
+  border-radius: 0 100vw 100vw 0;
+}
+details::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 199, 96);
+  border-radius: 2px 6px 6px 2px;
+}
+details::-webkit-scrollbar-thumb:hover {
+  background-color: orange;
+}
+
+.etap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 0.5em;
+  padding: 0.6em 0.2em 0.6em 0.8em;
+  position: relative;
+  line-height: 1.2;
+  transition: color 300ms ease-out;
+}
+.etap .desc {
+  width: clamp(120px, 100%, 360px);
+}
+#vstup24 .desc ul{
+    list-style-position:inside;
+}
+.etap .date {
+    margin-top: 0.4em;
+  width: clamp(34px, 12%, 100px);
+  flex-shrink: 0;
+}
+.etap .desc p:first-child {
+  margin-bottom:0.8em;
+}
+.etap .desc p {
+  margin: 0.3em;
+  text-align: left;
+}
+details p.info {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1em;
+  color: orangered;
+  font-size: 16px;
+  text-align: left;
+}
+.etap .desc p + * {
+  font-size: 0.9em;
+  color: rgb(142, 142, 142);
+  font-family: var(--main-font), sans-serif;
+  line-height: 1;
+}
+.etap .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: dimgray;
+  flex-shrink: 0;
+  transition: background-color 300ms ease-out;
+  margin-top: 0.7em;
+}
+.etap.active .dot {
+  background-color: orangered;
+  transition: background-color 1s ease-out;
+}
+.etap.past .dot {
+  background-color: rgba(107, 107, 107);
+}
+.etap.future .dot {
+  background-color: #003380;
+}
+.etap.past .line {
+  border: 1px solid dimgray;
+}
+.etap.future .line {
+  border: 1px solid #003380;
+}
+.etap .pulse {
+  display: none;
+}
+.etap.active .pulse {
+  display: block;
+  position: absolute;
+  top: calc(5px + 1.4em);
+  width: 10px;
+  height: 10px;
+  border-radius: 100vw;
+  transform: translateY(-50%);
+  animation: pulse 4s infinite;
+  animation-delay: 3s;
+  mix-blend-mode: multiply;
+}
+
+.etap.active {
+  color: orangered;
+  transition: color 1s ease-out;
+}
+.etap.past {
+  color: dimgray;
+}
+.etap.future {
+  color: #003380;
+}
+.etap .line {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  left: calc(0.8em + 4px);
+  transition: all 300ms ease-out;
+}
+.etap:last-of-type .line {
+  position: absolute;
+  top: 0px;
+  height: calc(5px + 1.4em);
+  left: calc(0.8em + 4px);
+}
+.etap:first-of-type .line {
+  position: absolute;
+  bottom: 0;
+  height: calc(100% - 1.4em - 5px);
+  left: calc(0.8em + 4px);
+}
+.etap.active .line {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      dimgray 0%,
+      orangered 1em,
+      orangered 2em,
+      #440071 70%,
+      #003380 80%
+    )
+    1;
+  transition: all 1s ease-out;
+}
+.etap:first-of-type.active .line {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      orangered 0%,
+      orangered 1em,
+      #440071 70%,
+      #003380 80%
+    )
+    1;
+}
+.etap:last-of-type.active .line {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      dimgray 0%,
+      orangered 1em,
+      orangered 100%
+    )
+    1;
+}
+.etap a{
+    all: unset;
+    display: block;
+    color: #3d93a9;
+    text-decoration: none;
+    cursor:pointer;
+    padding:0.6em 1em 0.5em;
+    border:1px dotted #3d93a9;
+    background-color: #3d93a922;
+    border-radius:8px;
+    margin: 6px 0;
+}
+.save_calendar {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.save_calendar img {
+  height: 26px;
+  width: auto;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: red;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    left: 0.8em;
+    filter: blur(0px);
+  }
+  40% {
+    background-color: red;
+    opacity: 0;
+    width: 70px;
+    height: 70px;
+    left: calc(-35px + 0.8em);
+    filter: blur(50px);
+  }
+  100% {
+    background-color: red;
+    opacity: 0;
+    left: calc(-50px + 0.8em);
+    width: 100px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="20.550789"
+   viewBox="0 0 32 20.550789"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1" /><g
+     id="layer1"
+     transform="translate(-52.000008,-40.849232)"><g
+       id="g26"
+       transform="matrix(2.0000004,0,0,2.0000004,-52.000026,33.570633)"
+       style="stroke-width:0.5"><path
+         style="color:#000000;fill:#ffbd00;stroke-width:0.5;stroke-linejoin:round;-inkscape-stroke:none;paint-order:fill markers stroke"
+         d="m 64.500372,3.639298 c -1.928018,0 -3.499632,1.6009934 -3.499632,3.533055 0,1.9320615 1.571614,3.533055 3.499632,3.533055 1.928017,0 3.499631,-1.6009935 3.499631,-3.533055 0,-1.9320616 -1.571614,-3.5330551 -3.499631,-3.533055 z m 0,2.0132711 c 0.825093,0 1.48636,0.6611016 1.48636,1.5197839 0,0.8586822 -0.661267,1.5197838 -1.48636,1.5197838 -0.825094,0 -1.486361,-0.6611016 -1.486361,-1.5197838 0,-0.8586823 0.661267,-1.5197839 1.486361,-1.5197839 z"
+         id="path24" /><path
+         id="path25"
+         style="font-variation-settings:'wght' 700;fill:#29cf7b;fill-opacity:1;stroke-width:0.398889;stroke-linejoin:round;paint-order:fill markers stroke"
+         d="m 57.198433,-5.9475703 h 6.722814 v 5.37825105 h -5.222814 a 1.4999999,1.4999999 45 0 1 -1.5,-1.49999985 z"
+         transform="matrix(1.2534806,0,0,1.2534806,-15.623339,14.628322)" /><path
+         style="font-variation-settings:'wght' 700;fill:#506eff;fill-opacity:1;stroke-width:0.5;stroke-linejoin:round;paint-order:fill markers stroke"
+         d="m 52.000006,5.5451979 c 0,-1.0384174 0.841804,-1.8802209 1.880222,-1.8802209 l 3.761398,2.874e-4 c 1.038416,0 1.880221,0.8418047 1.880221,1.880221 0,0.6378495 -0.319756,1.1999675 -0.805459,1.5399206 0.486147,0.339895 0.805459,0.9041753 0.805459,1.5423688 0,1.0384163 -0.841805,1.8802212 -1.880221,1.8802212 h -5.64162 z"
+         id="path26" /></g><path
+       style="color:#000000;fill:#ffbd00;stroke-linejoin:round;-inkscape-stroke:none;paint-order:fill markers stroke"
+       d="m 82.698233,44.404123 v 1.106461"
+       id="path28" /></g></svg>

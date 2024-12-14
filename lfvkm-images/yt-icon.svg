@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110"
+   height="110"
+   viewBox="0 0 110 110"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1" /><g
+     id="layer1"
+     transform="translate(-265,169.01131)"><rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect11"
+       width="110"
+       height="110"
+       x="265"
+       y="-169.01131"
+       rx="55"
+       ry="55" /><g
+       id="g19"
+       transform="matrix(0.77968334,0,0,0.77968334,70.328779,-161.25636)"
+       style="fill:#ffffff;stroke-width:1.28257"><path
+         style="fill:#ffffff;stroke:none;stroke-width:2.56514;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         d="m 369.62305,40.351589 c -1.39345,-8.105569 -5.55119,-13.19298 -14.41987,-14.419866 -8.86868,-1.226886 -21.54049,-1.502601 -34.98187,-1.502601 -13.44138,0 -26.11319,0.275715 -34.98187,1.502601 -8.86868,1.226886 -13.02642,6.314297 -14.41987,14.419866 -1.39342,8.105569 -1.37002,12.745129 -1.37002,20.243598 0,7.498469 -0.0234,12.138029 1.37002,20.243598 1.39345,8.105569 5.55119,13.19298 14.41987,14.419866 8.86868,1.226886 21.54049,1.502601 34.98187,1.502601 13.44138,0 26.11319,-0.275715 34.98187,-1.502601 8.86868,-1.226886 13.02642,-6.314297 14.41987,-14.419866 1.39342,-8.105569 1.37002,-12.745129 1.37002,-20.243598 0,-7.498469 0.0234,-12.138029 -1.37002,-20.243598 z"
+         id="path15" /><path
+         style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.56514;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="path19"
+         d="m 333.40484,60.45763 -23.4731,13.5522 V 46.905431 Z"
+         transform="matrix(1.1043531,0,0,1.1043531,-32.009774,-6.2205506)" /></g></g></svg>

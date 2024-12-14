@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="33.080841"
+   viewBox="0 0 32 33.080841"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1" /><g
+     id="layer1"
+     transform="translate(-621.34753,-141.05504)"><g
+       id="g36"
+       transform="translate(14.365108,-17.116077)"><path
+         id="path10"
+         style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 621.21433,159.81224 -13.23191,11.12135 v 19.31836 h 30 v -19.31836 l -13.23191,-11.12135 a 2.7479754,2.7479754 0 0 0 -3.53618,0 z" /><g
+         id="g15"
+         transform="translate(0.74615291)"
+         style="paint-order:stroke fill markers"><rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000080;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           id="rect15"
+           width="20"
+           height="24.682999"
+           x="612.23627"
+           y="162.16841" /><text
+           xml:space="preserve"
+           style="font-weight:800;font-size:11.9674px;line-height:1.5;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="616.03717"
+           y="172.81851"
+           id="text15"><tspan
+             id="tspan15"
+             x="616.03717"
+             y="172.81851"
+             style="stroke-width:2;paint-order:stroke fill markers">@</tspan></text></g><g
+         id="g35"
+         transform="translate(4.25e-4)"
+         style="paint-order:stroke fill markers"><path
+           id="path33"
+           style="fill:#ffffff;stroke:#000080;stroke-width:2.00001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           d="m 637.98199,170.93407 v 19.31772 l -11.49141,-9.65885 z" /><path
+           id="path34"
+           style="fill:#ffffff;stroke:#000080;stroke-width:2.00001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           d="m 607.98199,170.93407 v 19.31772 l 11.49141,-9.65885 z" /><path
+           id="path35"
+           style="fill:#ffffff;stroke:#000080;stroke-width:2.00001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           d="m 637.982,190.25178 h -30 l 13.77825,-11.581 a 1.8987902,1.8987902 179.99998 0 1 2.44348,0 z" /></g></g></g></svg>
