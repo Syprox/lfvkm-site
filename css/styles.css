@@ -94,7 +94,7 @@ div.header#headerbleft {
   grid: "label link" auto / 1fr 1fr;
   padding: 1em;
   /*border:2px solid var(--border-color);*/
-  background-color: var(--border-color);
+  background-color: var(--light-bg);
   border-radius: 1em;
   column-gap: 1em;
 }
